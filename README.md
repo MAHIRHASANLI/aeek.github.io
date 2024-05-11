@@ -1,3 +1,3 @@
-Link: https://mahirhasanli.github.io/aeek.github.io
-My portfolio: https://mahirhasanli.vercel.app
+<div> https://mahirhasanli.github.io/aeek.github.io</div>
+<div>My portfolio: https://mahirhasanli.vercel.app</div>
 <img src="./images/image-website.png" alt="">
