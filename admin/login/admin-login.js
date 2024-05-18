@@ -1,14 +1,13 @@
-
-
 const firebaseConfig = {
-    apiKey: "AIzaSyAHSxYrO-NXOgyhrPAn-yVjsTjcWibKBdk",
-    authDomain: "azerbaijan-energy-engineering.firebaseapp.com",
-    projectId: "azerbaijan-energy-engineering",
-    storageBucket: "azerbaijan-energy-engineering.appspot.com",
-    messagingSenderId: "349375785141",
-    appId: "1:349375785141:web:d62539d0e0ad00865176fc",
-    measurementId: "G-Z2Q2E9GVZ3"
+    apiKey: "AIzaSyDydXcMDZxGLRckVZ7nuz8d2BD64URG2eA",
+    authDomain: "aeek-project.firebaseapp.com",
+    projectId: "aeek-project",
+    storageBucket: "aeek-project.appspot.com",
+    messagingSenderId: "174347383838",
+    appId: "1:174347383838:web:92b10cf129573122d7aa0f",
+    measurementId: "G-FD9WWXJXQ0"
 };
+
 
 firebase.initializeApp(firebaseConfig);
 
@@ -22,9 +21,6 @@ adminLoginForm.addEventListener('submit', async function (event) {
 
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
-            // Giriş başarılı olduğunda yapılacak işlemler
-            // const user = userCredential.user;
-            // console.log("Giriş başarılı, kullanıcı:", user);
             window.location.href = "/admin/admin.html";
         })
         .catch((error) => {
