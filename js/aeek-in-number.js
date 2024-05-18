@@ -5,7 +5,6 @@ const aeekContainerItem = document.querySelector('.aeekContainer-item');
 // addDateUI - UI 
 // { title, text, img, date, id } = newNews
 const addDateUI = (newAeek) => {
-    console.log(newAeek);
     aeekContainerItem.innerHTML +=
         `<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="aeek-item">

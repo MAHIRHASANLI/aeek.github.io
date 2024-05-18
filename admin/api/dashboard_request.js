@@ -22,7 +22,7 @@ export const getViewsWebSite = async () => {
 //POST
 export const updateViewsWebSite = async () => {
     let view;
-    const documentRef = Collection_Statistics.doc("OMRUhBNoeWfRA99jZDMj");
+    const documentRef = Collection_Statistics.doc("CY3vEEHKQ6hpA9BMZ3n6");
     await documentRef.get()
         .then(async (doc) => {
             if (doc.exists) {

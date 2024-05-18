@@ -1369,3 +1369,13 @@ hr {
   font-size: 34px;
 }
 
+.aeekContainer-h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(26, 24, 36, 0.8);
+  margin-bottom: 20px;
+  color: #e05306 !important;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
