@@ -31,7 +31,6 @@ body {
 .pages-head h2 {
   color: #212529;
   font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   margin: 60px 0 40px 0;
   color: RGB(224, 83, 6);
@@ -48,7 +47,6 @@ body {
   margin-top: 20px;
   color: #212529;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .pages-photos {
@@ -72,7 +70,6 @@ body {
 
 .page-info h2 {
   font-size: 40px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   color: #fff;
   border-bottom: 1px solid #ffffff4d;
@@ -93,14 +90,12 @@ body {
 .anasehife {
   font-size: 15px;
   color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
 }
 
 .geriqayit {
   color: #ffffff7a;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
 }
 

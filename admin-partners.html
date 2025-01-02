@@ -5,12 +5,15 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Admin / AEEK in Numbers</title>
+  <title>Admin / Partners</title>
+  <!-- Dashboard, Partners - Table -CSS-->
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+
   <!-- Css FILE -->
-  <link rel="stylesheet" href="css/materialdesignicons.min.css">
-  <!-- endinject -->
+  <link rel="stylesheet" href="./admin/css/materialdesignicons.min.css">
   <!-- inject:css -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="./admin/css/style.css">
   <!-- endinject -->
 </head>
 
@@ -25,7 +28,7 @@
           <a class="navbar-brand brand-logo-mini" href="admin.html"><img class="logo-img" src="../images/logo2.png"
               alt="logo" /></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-            <span class="mdi mdi-sort-variant"></span>
+            <span class="mdi mdi-sort-variant text-white"></span>
           </button>
         </div>
       </div>
@@ -44,10 +47,10 @@
           </li>
         </ul>
         <ul class="navbar-nav navbar-nav-right">
-
           <li class="nav-item nav-profile dropdown">
             <a href="login/login.html" class="nav-profile-name">Daxil ol</a>
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown"></a>
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="profileDropdown">
+            </a>
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item">
                 <i class="mdi mdi-logout text-primary"></i>
@@ -102,17 +105,17 @@
           <div class="row">
             <div class="col-md-12 grid-margin">
               <div class="d-flex justify-content-between flex-wrap">
-                <div class="d-flex align-items-end flex-wrap">
+                <div class="d-flex align-items-end flex-wrap justify-content-start">
                   <div class="me-md-3 me-xl-5">
                     <h2>Yenidən xoş gəlmisiniz</h2>
-                    <p class="mb-md-0">Rəqəmlərlə AEEK analitika şablonunuz.</p>
+                    <p class="mb-md-0">Analitik partnyorlarınız şablonu.</p>
                   </div>
-                  <div class="d-flex">
+                  <div class="d-flex ">
                     <i class="mdi mdi-home text-muted hover-cursor"></i>
                     <a href="admin.html">
                       <p class="text-muted mb-0 hover-cursor">&nbsp;/&nbsp;Dashboard&nbsp;/&nbsp;</p>
                     </a>
-                    <p class="text-primary mb-0 hover-cursor">AEEK in Numbers</p>
+                    <p class="text-primary mb-0 hover-cursor">Partners</p>
 
                   </div>
                 </div>
@@ -120,22 +123,25 @@
             </div>
           </div>
 
-
           <div class="row">
             <div class="col-md-12 stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <p class="card-title">Recent Purchases</p>
+                  <div class="card-body-head">
+                    <p class="card-title">Recent Purchases</p>
+                    <button class="post-data--btn">Əlavə edin</button>
+                  </div>
                   <div class="table-responsive">
                     <table id="recent-purchases-listing" class="table">
                       <thead>
                         <tr>
+                          <th>Tərəfdaş logosu</th>
                           <th>Adı</th>
-                          <th>sayı</th>
                           <th class="text-success">Güncəllə</th>
+                          <th class="text-danger">Sil</th>
                         </tr>
                       </thead>
-                      <tbody class="aeekInNumber-table--tbody">
+                      <tbody class="partner-table--tbody">
 
                       </tbody>
                     </table>
@@ -145,14 +151,13 @@
             </div>
           </div>
         </div>
-
         <!-- MODAL -->
         <div id="myModal" class="modal">
           <!-- Modal content -->
           <form class="modal-content">
             <span class="close">&times;</span>
-            <input class="project-name" type="text" placeholder="Adını yeniləyin" title="add text">
-            <input class="project-number" type="text" placeholder="Sayını yeniləyin" title="add number">
+            <input class="name" type="text" placeholder="Adı daxil edin" title="add text" required>
+            <input class="image" type="text" placeholder="Logonu daxil edin" title="add file" required>
             <button title="Submit" type="submit" class="modal-btn">Göndər</button>
           </form>
         </div>
@@ -160,9 +165,9 @@
     </div>
   </div>
 
-
   <!-- sweetalert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <!-- Partner, Dashboard -Table -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
@@ -170,24 +175,24 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script> -->
 
   <!-- Plugin js for this page-->
-  <script src="javascript/Chart.min.js"></script>
+  <script src="./admin/javascript/Chart.min.js"></script>
   <!-- inject:js -->
-  <script src="javascript/off-canvas.js"></script>
-  <script src="javascript/hoverable-collapse.js"></script>
-  <!-- //////////////////////////// -->
-  <!-- inject:js -->
+  <script src="./admin/javascript/off-canvas.js"></script>
+  <script src="./admin/javascript/hoverable-collapse.js"></script>
 
-  <!-- <script src="javascript/hoverable-collapse.js"></script> -->
-  <!-- <script src="javascript/template.js"></script> -->
-  <script src="javascript/jquery.dataTables.js"></script>
+  <!-- <script src="./admin/javascript/hoverable-collapse.js"></script> -->
+  <!-- <script src="./admin/javascript/template.js"></script> -->
+  <script src="./admin/javascript/jquery.dataTables.js"></script>
 
   <!-- Partner, Dashboard -Table -->
   <!-- ardi -->
-  <script src="javascript/dashboard-table.js"></script>
+  <script src="./admin/javascript/dashboard-table.js"></script>
 
   <!-- Active Link -->
-  <script src="javascript/active-template.js"></script>
-  <script src="javascript/responsive-table-sorted.js"></script>
+  <script src="./admin/javascript/active-template.js"></script>
+  <script src="./admin/javascript/responsive-table-sorted.js"></script>
+
+
 
   <!-- Firebase App -->
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
@@ -197,8 +202,8 @@
   <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
 
 
-  <!-- /admin-aeek-number -->
-  <script type="module" src="javascript/admin-aeek-number.js"></script>
+  <!-- Firebase Config -->
+  <script type="module" src="./admin/javascript/admin-partners.js"></script>
 </body>
 
 </html>
