@@ -8627,7 +8627,7 @@
   --bs-purple: #6a008a;
   --bs-pink: #e91e63;
   --bs-red: #f96868;
-  --bs-orange: #f2a654;
+  --bs-orange: #286aa6;
   --bs-yellow: #f6e84e;
   --bs-green: #46c35f;
   --bs-teal: #58d8a3;
@@ -21751,11 +21751,11 @@ code {
 }
 
 .card-body-head button.post-data--btn {
-  background: #e05306;
+  background: #286aa6;
   padding: 10px 10px;
   color: white;
   border-radius: 5px;
-  border: 1px solid #e05306;
+  border: 1px solid #286aa6;
   margin-bottom: 10px;
   text-transform: uppercase;
   font-size: 0.875rem;
@@ -22969,7 +22969,7 @@ dl li {
   cursor: pointer;
   padding: 5px;
   transition: linear 0.3s all;
-  color: #e05306;
+  color: #286aa6;
 }
 
 .dataTables_wrapper .dataTable thead .sorting:before,
@@ -23316,7 +23316,7 @@ dl li {
 .sidebar .nav .nav-item.active > .nav-link i,
 .sidebar .nav .nav-item.active > .nav-link .menu-title,
 .sidebar .nav .nav-item.active > .nav-link .menu-arrow {
-  color: #e05306;
+  color: #286aa6;
 }
 
 .sidebar .nav:not(.sub-menu) {
@@ -23334,7 +23334,7 @@ dl li {
 
 .sidebar .nav:not(.sub-menu) > .nav-item:hover > .nav-link {
   background: transparent;
-  color: #e05306;
+  color: #286aa6;
 }
 
 .sidebar .nav.sub-menu {
@@ -23409,7 +23409,7 @@ dl li {
 }
 
 .navbar .navbar-brand-wrapper {
-  background: #e05306;
+  background: #286aa6;
   border-bottom: 1px solid #e3e3e3;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
@@ -23768,8 +23768,8 @@ dl li {
 }
 
 .navbar .nav-profile-name {
-  color: #e05306;
-  border: 1px solid #e05306;
+  color: #286aa6;
+  border: 1px solid #286aa6;
   border-radius: 8px;
   padding: 5px 25px;
   transition: 0.3s linear;
@@ -23777,8 +23777,8 @@ dl li {
 
 .navbar .nav-profile-name:hover {
   color: white;
-  border: 1px solid #e05306;
-  background-color: #e05306;
+  border: 1px solid #286aa6;
+  background-color: #286aa6;
 }
 
 .nav-profile-name::after {
@@ -24322,7 +24322,7 @@ img.logo-img {
 
 .modal-content input:active,
 .modal-content input:focus {
-  border: 1px solid #e05306;
+  border: 1px solid #286aa6;
 }
 
 .modal-content input::placeholder {
@@ -24335,7 +24335,7 @@ img.logo-img {
 .modal-content button {
   padding: 12px;
   color: white;
-  background: #e05306;
+  background: #286aa6;
   border: 1px solid;
   border-radius: 5px;
   margin: 10px 0;
@@ -24343,7 +24343,7 @@ img.logo-img {
 }
 
 .modal-content button:hover {
-  color: #e05306;
+  color: #286aa6;
   background: #ffff;
 }
 
