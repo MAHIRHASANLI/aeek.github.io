@@ -42,7 +42,6 @@ body {
   font-weight: normal;
   overflow-x: hidden;
 }
-
 a {
   color: #1f1f1f;
   text-decoration: none !important;
@@ -218,11 +217,10 @@ button {
 }
 
 .header_section {
-  background-color: #e05306;
+  background-color: #286aa6;
   padding-top: 10px;
   padding-bottom: 5px;
-  z-index: 999;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 1px 0px;
 }
 
 .header_section .header_section-item {
@@ -271,7 +269,7 @@ button {
 
 .banner_section {
   width: 100%;
-  background-color: #e05306;
+  background-color: #286aa6;
   height: auto;
 }
 
@@ -283,7 +281,7 @@ button {
   color: #000;
 }
 .loading {
-  color: #e05306 !important;
+  color: #286aa6 !important;
   display: block;
   margin: auto;
   padding: 20px;
@@ -466,8 +464,8 @@ button {
 
   font-size: 16px;
   color: #ffffff;
-  background-color: #e05306;
-  border: 1px solid #e05306;
+  background-color: #286aa6;
+  border: 1px solid #286aa6;
   font-weight: bold;
   margin-top: 40px;
   text-align: center;
@@ -477,11 +475,11 @@ button {
 
 .about_bt a {
   color: #ffffff;
-  background-color: #e05306;
+  background-color: #286aa6;
 }
 
 .about_bt a:hover {
-  color: #e05306;
+  color: #286aa6;
   background-color: #ffffff;
 }
 
@@ -592,7 +590,7 @@ button {
   text-align: center;
   font-size: 40px;
   color: #0b0e13;
-  border-bottom: 1px solid #e05306;
+  border-bottom: 1px solid #286aa6;
   text-align: center;
 }
 
@@ -616,7 +614,7 @@ button {
 
 .seemore_bt a:hover {
   color: #fffcf4;
-  background-color: #e05306;
+  background-color: #286aa6;
 }
 
 .padding_top_0 {
@@ -664,7 +662,7 @@ button {
 .henrry_taital {
   width: 100%;
   float: left;
-  color: #e07c06;
+  color: #286aa6;
   text-align: center;
   font-size: 18px;
   margin-left: 0px;
@@ -774,7 +772,7 @@ textarea#comment.massage-bt::placeholder {
 .input-group > .input-group-prepend:not(:first-child) > .input-group-text {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  background-color: #e05306;
+  background-color: #286aa6;
   color: #fff;
   border: 0px;
 }
@@ -823,7 +821,7 @@ textarea#comment.massage-bt::placeholder {
 .copyright_section {
   width: 100%;
   float: left;
-  background-color: #e05306;
+  background-color: #286aa6;
 }
 
 .image {
@@ -939,7 +937,7 @@ a {
   align-items: center;
   height: auto;
   width: 45%;
-  background-color: rgb(224, 83, 6);
+  background-color: #286aa6;
   padding: 15px;
   border-radius: 12px;
   color: white;
@@ -985,7 +983,7 @@ a {
 hr {
   width: 50%;
   height: 3px;
-  background-color: rgb(224, 83, 6);
+  background-color: #286aa6;
   border: 0;
 }
 
@@ -1005,7 +1003,7 @@ hr {
 }
 
 .containerSevices .button:hover {
-  background-color: rgb(224, 83, 6);
+  background-color: #286aa6;
   transition: 0.3s;
 }
 
@@ -1049,8 +1047,8 @@ hr {
 
 .contact_bt:hover {
   background-color: white !important;
-  color: rgb(224, 83, 6) !important;
-  border-color: rgb(224, 83, 6) !important;
+  color: #286aa6 !important;
+  border-color: #286aa6 !important;
   transition: 0.3s !important;
 }
 
@@ -1097,7 +1095,7 @@ hr {
 }
 
 .card.swiper-slide .name:hover {
-  color: #e05306;
+  color: #286aa6;
 }
 
 .image-content {
@@ -1125,7 +1123,7 @@ hr {
 }
 
 .partnersSection .partnersSection-item:hover h6 {
-  color: #e05306;
+  color: #286aa6;
 }
 
 /* .iconsProject {
@@ -1152,7 +1150,7 @@ hr {
   cursor: pointer;
 
   transition: 0.3s;
-  border: 1px solid rgb(224, 83, 6);
+  border: 1px solid #286aa6;
 } */
 
 /* .iconTextProject {
@@ -1190,7 +1188,7 @@ hr {
 hr {
   width: 50%;
   height: 3px;
-  background-color: rgb(224, 83, 6);
+  background-color: #286aa6;
   border: 0;
 }
 
@@ -1201,7 +1199,7 @@ hr {
 }
 
 .iconTextProject h3 {
-  color: rgb(224, 83, 6) !important;
+  color: #286aa6 !important;
   font-size: 1.4rem !important;
 }
 
@@ -1219,8 +1217,8 @@ hr {
   height: 40px !important;
 }
 .iconTextProject a:hover {
-  background-color: rgb(224, 83, 6) !important;
-  border-color: rgb(224, 83, 6) !important;
+  background-color: #286aa6 !important;
+  border-color: #286aa6 !important;
   transition: 0.3s;
 }
 #partners .container {
@@ -1265,7 +1263,7 @@ hr {
 .banner_section .more:hover {
   background-color: white !important;
   border-color: white !important;
-  color: rgb(224, 83, 6) !important;
+  color: #286aa6 !important;
   transition: 0.3s;
 }
 .menu_text ul {
@@ -1342,15 +1340,15 @@ hr {
   border: 2px solid white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-  /* border-bottom: 2px solid #e05306; */
+  /* border-bottom: 2px solid #286aa6; */
   cursor: pointer;
   transition: 0.3s all;
   padding: 40px 20px;
 }
 
 .aeekContainer .aeek-item:hover {
-  /* border: 1px solid #e05306;
-  border-bottom: 2px solid #e05306; */
+  /* border: 1px solid #286aa6;
+  border-bottom: 2px solid #286aa6; */
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -1365,7 +1363,7 @@ hr {
 .aeek-item span {
   margin: 0;
   padding: 0;
-  color: #e05306;
+  color: #286aa6;
   font-size: 34px;
 }
 
@@ -1374,7 +1372,7 @@ hr {
   font-weight: bold;
   color: rgba(26, 24, 36, 0.8);
   margin-bottom: 20px;
-  color: #e05306 !important;
+  color: #286aa6 !important;
     display: block;
     margin: auto;
     padding: 20px;

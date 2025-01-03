@@ -65,7 +65,7 @@
 }
 
 .news-slider .swiper-navBtn:hover {
-  color: #e05306;
+  color: #286aa6;
 }
 
 .newsImg {
@@ -113,7 +113,7 @@
 }
 
 .details button:hover {
-  background-color: rgb(224, 83, 6);
+  background-color: #286aa6;
   color: white;
   transition: 0.3s;
 }
@@ -200,7 +200,7 @@
   left: 15px;
 }
 .arrow:hover {
-  color: rgb(224, 83, 6);
+  color: #286aa6;
   transition: 0.3s;
 }
 

@@ -38,7 +38,7 @@
 }
 
 .map_text .map_icon:hover {
-  color: #e05306;
+  color: #286aa6;
   cursor: pointer;
 }
 
@@ -218,7 +218,7 @@ div[class*="-stats"] span:hover {
 }
 
 .sosical-icon:hover {
-  color: #e05306 !important;
+  color: #286aa6 !important;
 }
 
 @keyframes showlines {
