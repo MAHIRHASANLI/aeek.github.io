@@ -1,4 +1,4 @@
-<div>Website: https://mahirhasanli.github.io/aeek.github.io</div>
-<div>My portfolio: https://mahirhasanli.vercel.app</div>
+<div>Website: https://aeec.az</div>
+<div>My portfolio: <a href="https://mahirhasani.vercel.app">https://mahirhasani.com</a></div>
 <br/>
 <img src="./images/image-website.png" alt="">

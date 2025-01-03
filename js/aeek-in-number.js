@@ -8,7 +8,7 @@ const addDateUI = (newAeek) => {
     aeekContainerItem.innerHTML +=
         `<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
         <div class="aeek-item">
-           <p>${newAeek.name} </p><span class="mahir">${newAeek.number}</span>
+           <p>${newAeek.name}</p><span class="mahir">${newAeek.number}</span>
         </div>
      </div>`;
 };

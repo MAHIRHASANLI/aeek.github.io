@@ -1323,11 +1323,8 @@ hr {
 }
 
 .aeekTitle h2 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  color: rgba(26, 24, 36, 0.8);
-  margin-bottom: 20px;
 }
 
 .aeekContainer {
@@ -1357,7 +1354,6 @@ hr {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
-  font-family: Raleway;
 }
 
 .aeek-item span {
@@ -1372,8 +1368,15 @@ hr {
   font-weight: bold;
   color: rgba(26, 24, 36, 0.8);
   margin-bottom: 20px;
+<<<<<<< HEAD
   color: #286aa6 !important;
     display: block;
     margin: auto;
     padding: 20px;
+=======
+  color: #e05306 !important;
+  display: block;
+  margin: auto;
+  padding: 20px;
+>>>>>>> a5a29ae2c1f0a30e54b42a87089a174cf8ee91d2
 }
