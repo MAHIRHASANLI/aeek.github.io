@@ -4,11 +4,11 @@ import { PostPartner, UpdatePartner, deletePartner, getAllPartners } from '../ap
 // LOGIN oldugunu yoxlayir
 firebase.auth().onAuthStateChanged((user) => {
   if (!user) {
-    window.location.href = "/admin/login/login.html";
+    window.location.href = "/login.html";
   }
 });
 
-// // // LOGOUT
+// ! LOGOUT
 const logOutBtn = document.querySelector('.dropdown-item')
 logOutBtn.addEventListener('click', function () {
   Swal.fire({

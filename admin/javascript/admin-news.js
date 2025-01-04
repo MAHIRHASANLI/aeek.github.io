@@ -9,7 +9,7 @@ datePickerId.min = minDate.toISOString().split("T")[0];
 // LOGIN oldugunu yoxlayir
 firebase.auth().onAuthStateChanged((user) => {
   if (!user) {
-    window.location.href = "/admin/login/login.html";
+    window.location.href = "/login.html";
   }
 });
 

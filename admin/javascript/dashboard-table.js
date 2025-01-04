@@ -14,7 +14,7 @@
             label: 'Aylar üzrə statistik məlumatlara baxmaq',
             data: [27, 35, 30, 40, 52, 48, 54, 46, 70],
             borderColor: [
-              '#ff4747'
+              '#286aa6'
             ],
             borderWidth: 2,
             fill: false,

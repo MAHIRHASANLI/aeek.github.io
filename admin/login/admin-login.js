@@ -21,7 +21,7 @@ adminLoginForm.addEventListener('submit', async function (event) {
 
     firebase.auth().signInWithEmailAndPassword(email, password)
         .then((userCredential) => {
-            window.location.href = "/admin/admin.html";
+            window.location.href = "/admin.html";
         })
         .catch((error) => {
             // Girişte hata oluştuğunda yapılacak işlemler

@@ -3,7 +3,7 @@ import { UpdateAEEKinNumbers, getAllAEEKinNumbers } from "../api/aeek_in_number_
 // LOGIN oldugunu yoxlayir
 firebase.auth().onAuthStateChanged((user) => {
     if (!user) {
-        window.location.href = "/admin/login/login.html";
+        window.location.href = "/login.html";
     }
 });
 
